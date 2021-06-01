@@ -54,7 +54,8 @@ input{
     margin: 7.5% auto;
     height: 10%;
     width: 80%;
-    padding: 1.25rem
+    padding: 1.25rem;
+    font-size:1.25rem
 }
 
 #trial-btn{
@@ -105,4 +106,31 @@ input{
     color:rgb(177, 177, 177);
     font-size: 
     .75rem;
+}
+
+#first-name-err{
+    top:29.5%;
+    right:9%;
+}
+
+#last-name-err{
+    top:44%;
+    right:9%;
+}
+
+#email-err{
+    top: 58.5%;
+    right:9%;
+}
+
+#password-err{
+    top:73%;
+    right:9%;
+}
+
+.err{
+    color:red;
+    font-size: .7rem;
+    position: absolute;
+    display: none;
 }
