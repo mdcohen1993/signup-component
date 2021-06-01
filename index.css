@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body{
+    background-image: url(images/bg-intro-desktop.png);
+    background-color: rgb(228, 109, 109);
+}
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
+h1{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 12.5%;
+    font-size:3.25rem
+}
+
+h4{
+    color: white;
+    position: absolute;
+    width: 25%;
+    top:50%;
+    left: 12.5%
+}
+
+form{
+    background-color: white;
+    border-radius: 5px;
+    height: 82.5%;
+    width: 40vw;
+    position: absolute;
+    top: 8rem;
+    right: 5rem;
+    text-align: center;
+    box-shadow:0px 10px 10px rgb(133, 133, 133); 
+}
+
+span{
+    margin-right: .275rem;
+    font-weight: bold;
+}
+
+input{
+    display: block;
+    border: 2px solid rgb(177, 177, 177);
+    border-radius: 5px;
+    margin: 7.5% auto;
+    height: 10%;
+    width: 80%;
+    padding: 1.25rem
+}
+
+#trial-btn{
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+    width: 40vw;
+    position: absolute;
+    right:4%;
+    top: 5%;
+    border:none;
+    box-shadow:0px 10px 10px rgb(133, 133, 133); 
+}
+
+#trial-btn:active{
+    background: white;
+    color:purple;
+    -webkit-box-shadow: inset 0px 0px 5px rgb(177, 177, 177);
+       -moz-box-shadow: inset 0px 0px 5px rgb(177, 177, 177);
+            box-shadow: inset 0px 0px 5px rgb(177, 177, 177);
+     outline: none;
+  }
+
+#btn{
+    background-color: aquamarine;
+    color: white;
+    border-radius: 5px;
+    border:none;
+    width: 80%;
+    height: 10%;
+    margin-bottom: 2%;
+}
+
+#btn:active{
+    background: white;
+    color:aquamarine;
+    -webkit-box-shadow: inset 0px 0px 5px rgb(177, 177, 177);
+       -moz-box-shadow: inset 0px 0px 5px rgb(177, 177, 177);
+            box-shadow: inset 0px 0px 5px rgb(177, 177, 177);
+     outline: none;
+}
+
+
+
+#terms{
+    color:rgb(177, 177, 177);
+    font-size: 
+    .75rem;
+}
