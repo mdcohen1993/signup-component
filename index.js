@@ -20,15 +20,25 @@ btn.addEventListener("click", e =>{
         firstName.style.border = "2px solid red";
     }
     if(lastName.value === ""){
-        lastNameErr.style.display = "block"
+        lastNameErr.style.display = "block";
         lastName.style.border = "2px solid red";
     }
     if(reg.test(email.value) === false){
-        emailErr.style.display = "block"
+        emailErr.style.display = "block";
         email.style.border = "2px solid red";
     }
     if(password.value === ""){
-        passwordErr.style.display = "block"
+        passwordErr.style.display = "block";
         password.style.border = "2px solid red";
+    }
+    else{
+        firstNameErr.style.display = "none";
+        firstName.style.border = "2px solid black";
+        lastNameErr.style.display = "none";
+        lastName.style.border = "2px solid black";
+        emailErr.style.display = "none";
+        email.style.border = "2px solid black";
+        passwordErr.style.display = "none";
+        password.style.border = "2px solid black";
     }
 })
